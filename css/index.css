@@ -1,6 +1,16 @@
 a{
 	text-decoration: none;
 }
+.upprice:after{
+	display: block;
+	width: 64px;
+	height: 20px;
+	text-align: center;
+	content: '减60';
+	background: red;
+	color: white;
+	font-size: 14px;
+}
 .top{
 	height: 40px;
 	background: #333333;
@@ -254,7 +264,6 @@ a{
 .hot .shop .tp{
 	width: 234px;
 	height: 340px;
-	background: yellow;
 	float: left;
 	margin-right: 14px;
 }
@@ -289,6 +298,54 @@ a{
 	background: #605751;
 	color: white;
 	text-align: center;
+}
+.hot .shop .tp:nth-child(2),
+.hot .shop .tp:nth-child(3),
+.hot .shop .tp:nth-child(4),
+.hot .shop .tp:nth-child(5){
+	text-align: center;
+}
+.hot .shop .tp:nth-child(2)>a,
+.hot .shop .tp:nth-child(3)>a,
+.hot .shop .tp:nth-child(4)>a,
+.hot .shop .tp:nth-child(5)>a{
+	display:inline-block;
+	width: 141px;
+	height: 152px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.hot .shop .tp:nth-child(2) .title a,
+.hot .shop .tp:nth-child(3) .title a,
+.hot .shop .tp:nth-child(4) .title a,
+.hot .shop .tp:nth-child(5) .title a{
+	font-size: 12px;
+	color: #202020；
+}
+.hot .shop .tp:nth-child(2) .js,
+.hot .shop .tp:nth-child(3) .js,
+.hot .shop .tp:nth-child(4) .js,
+.hot .shop .tp:nth-child(5) .js{
+	color: #b0b0b0;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.hot .shop .tp:nth-child(2) .price,
+.hot .shop .tp:nth-child(3) .price,
+.hot .shop .tp:nth-child(4) .price,
+.hot .shop .tp:nth-child(5) .price{
+	color: #ff6700;
+	font-size: 14px;
+}
+.hot .shop .tp:nth-child(2) .price span,
+.hot .shop .tp:nth-child(3) .price span,
+.hot .shop .tp:nth-child(4) .price span,
+.hot .shop .tp:nth-child(5) .price span{
+	color: #adafbf;
+	display: inline-block;
+	font-size: 14px;
+	margin-left: 10px;
 }
 .hot .gg{
 	width: 100%;
@@ -402,12 +459,31 @@ a{
 .main .jiadian1{
 	width: 100%;
 	height: 79px;
-	background: green;
 }
 .main .jiadian1 p{
 	float: left;
+	margin-top: 40px;
+	font-size: 20px;
 }
-
+.main .jiadian1 ul{
+	float: right;
+	width: 300px;
+	height: 100%;
+}
+.main .jiadian1 ul li{
+	float: right;
+	margin-left: 30px;
+	margin-top: 40px;
+	font-size: 16px;
+}
+.main .jiadian1 ul li:nth-child(4){
+	width: 32px;
+	height: 25px;
+	border-bottom: 2px solid #ff6700;
+}
+.main .jiadian1 ul li:nth-child(4) a{
+	color: #ff6700;
+}
 .main .jiadian2{
 	width: 100%;
 	height: 615px;
