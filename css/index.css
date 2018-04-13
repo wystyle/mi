@@ -793,6 +793,32 @@ a{
 	color: white;
 }
 .end{
-	height: 163px;
-	background: green;
+	height: 248px;
+}
+.end .endtop{
+	width: 100%;
+	height: 106px;
+}
+.end .endtop .leftbox{
+    width: 657px;
+    height: 63px;
+	float: left;
+	margin-top: 26px;
+}
+.end .endtop .leftbox .img{
+	float: left;
+}
+.end .endtop .leftbox .banben{
+	width: 590px;
+	height: 63px;
+	text-align: left;	
+	float: right;
+	font-size: 12px;
+}
+.end .endtop .rightbox{
+	float: right;
+	margin-top: 26px;
+}
+.end .endbottom{
+
 }
